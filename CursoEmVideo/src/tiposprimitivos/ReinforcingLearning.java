@@ -8,7 +8,7 @@ class ReinforcingLearning {
 
         Scanner keyboard = new Scanner(System.in);
 
-        System.out.print("Type your name: ");
+        System.out.print("Type your name:  ");
         String name = keyboard.nextLine();
 
         System.out.print("Type your course: ");
