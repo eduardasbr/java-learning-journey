@@ -43,10 +43,10 @@ public class OperadoresAritmeticos {
         // ---------------- Classe Math -------------------
 
         double raizquadrada = Math.sqrt(81);
-        double potenciaquadrado = Math.pow(2,4);
+        double potencia= Math.pow(2,4);
 
         System.out.println("Raiz Quadrada de 81: " + raizquadrada);
-        System.out.println("2 elevado a 4 potencia: " + potenciaquadrado);
+        System.out.println("2 elevado a 4 potencia: " + potencia);
 
         // ----------------- Arredondamento -------------------
 
@@ -72,7 +72,6 @@ public class OperadoresAritmeticos {
         double ale2 = Math.random();
         int valor = (int) (5 + ale2 * (10-5));
         System.out.println("Valor aleatorio entre 10 e 5: " + valor);
-
 
     }
 }
