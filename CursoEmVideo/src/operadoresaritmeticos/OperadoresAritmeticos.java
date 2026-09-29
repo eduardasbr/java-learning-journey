@@ -73,5 +73,6 @@ public class OperadoresAritmeticos {
         int valor = (int) (5 + ale2 * (10-5));
         System.out.println("Valor aleatorio entre 10 e 5: " + valor);
 
+
     }
 }
