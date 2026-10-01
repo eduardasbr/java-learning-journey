@@ -73,5 +73,16 @@ public class OperadoresAritmeticos {
         int valor = (int) (5 + ale2 * (10-5));
         System.out.println("Valor aleatorio entre 10 e 5: " + valor);
 
+        // ----------------- Operador Ternário ---------------------
+
+        int m1, m2, r;
+        m1 = 4;
+        m2 = 8;
+        r = (m1>m2)?m1:m2;  // se m1 fosse maior que m2, ele imprimiria: 4, como não é, ele vai imprimir 8.
+        System.out.println("Resultado Operador Ternário: " + r);
+
+        // ----------------- Operadores Relacionais -----------------
+
+
     }
 }
